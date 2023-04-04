@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +9,11 @@
     <title>PHP Badwords</title>
 </head>
 <body>
+    <form action="./giovanni.php" method= 'GET'>
+        <input type="text" name="testo" placeholder="inserisci testo">
+        <button>invia</button>
+        
+    </form>
     
 </body>
 </html>
