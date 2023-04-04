@@ -1,5 +1,7 @@
 <?php
 $testo_inserito = $_GET["testo"];
+$parola_censurata = 'ciao';
+$risultato = str_replace($parola_censurata, '***', $testo_inserito);
 ?>
 
 
@@ -15,6 +17,9 @@ $testo_inserito = $_GET["testo"];
 <body>
     <p>
        La parola digitata nell'input è <?php echo $testo_inserito ?> ed è lunga <?php echo strlen($testo_inserito) ?> caratteri
+    </p>
+    <p>
+       La parola digitata nell'input è <?php echo $risultato ?> ed è lunga <?php echo strlen($risultato) ?> caratteri
     </p>
 </body>
 </html>
